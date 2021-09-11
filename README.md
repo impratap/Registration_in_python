@@ -1,6 +1,8 @@
 # Registration_in_python
 
-This is a project for Employee Registration, Attendance and Leave record and Salary Calculation.
+It is a project for Employee Registration, Attendance and Leave record, and Salary Calculation in Python. For this project, I have used MySQL for the database. We have three different files for registration, attendance & leave, and salary calculation. I have used Tkinter for GUI. First, I have created a registration.py file for the registration of Employees. Created a message box that can inform us if some event happens. After that, create a second file for the Leave and Attendance record and create a third file for Salary calculation. After completed all files, import both leave and attendance and salary calculation files in the registration.
+
+Aim: Aim of this project is to create an application, which can be used for employee registration, maintenance of their leave and attendance records, and salary calculation.
 
 For this project I have used mysql for database...
 

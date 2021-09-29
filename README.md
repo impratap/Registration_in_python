@@ -3,28 +3,26 @@
 It is a project for Employee Registration, Attendance and Leave record, and Salary Calculation in Python. For this project, I have used MySQL for the database. We have three different files for registration, attendance & leave, and salary calculation. I have used Tkinter for GUI. First, I have created a registration.py file for the registration of Employees. Created a message box that can inform us if some event happens. After that, create a second file for the Leave and Attendance record and create a third file for Salary calculation. After completed all files, import both leave and attendance and salary calculation files in the registration.
 
 Aim: Aim of this project is to create an application, which can be used for employee registration, maintenance of their leave and attendance records, and salary calculation.
+For this project I have used mysql for database...We have three different file for registration, attendance & leave and salary calculation.
 
-For this project I have used mysql for database...
+## Built In
 
-We have three different file for registration, attendance & leave and salary calculation.
+* Python
+* MySql
 
 First we have registration.py for registraion...
 
-for that we have used different library like.
+for that we have used different libraries like.
 
-from tkinter import *
+## LIbraries
 
-from pymysql import *
-
-from tkinter import ttk
-
-from ttkthemes import themed_tk as tk
-
-from tkinter import messagebox as msg
-
-from lev_attendance import lev_attendance
-
-from sal_cal import sal_cal
+* Tkinter
+* Pymysql
+* Ttk
+* Ttkthemes
+* Messagebox
+* Lev_attendance
+* Sal_cal
 
 We have tkinter for GUI, pymysql for database, themed_tk for theme , messagebox for printing message, lev_attendence and sal_cal for using both these files...
 
@@ -42,15 +40,13 @@ Now in second file lev_attendence.py
 
 I have imported some necessary library like 
 
-from tkinter import *
+## Libraries
 
-from pymysql import *
-
-from tkinter import messagebox as msg
-
-from tkinter import ttk
-
-from ttkthemes import themed_tk as tk
+* Tkinter
+* pymysql
+* Messagebox
+* Ttk3
+* Ttkthemes
 
 created a class for GUI like label, buton, and text fields and then a function for updation of Attendence and leave.
 
@@ -60,15 +56,13 @@ And the third and last file sal_cal.py for salary calculation
 
 for that I have used some library like 
 
-from tkinter import *
+## LIbraries
 
-from pymysql import *
-
-from tkinter import messagebox as msg
-
-from tkinter import ttk
-
-from ttkthemes import themed_tk as tk
+* Tkinter
+* Pymysql
+* Messagebox
+* Tkinter
+* Ttkthemes
 
 And created a class using frame from tkinter for label, button and text fields and then a function for salary calculation...
 
